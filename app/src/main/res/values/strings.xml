@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RewardXHome</string>
+
+
+    <string name="aboutUs">GoRituals is a comprehensive wholistic living social networking solution for the extended family. We enable users to meet all the associated requirements of performing ceremonies, festivals and functions with the required dissemination and sharing of knowledge and experiences, end to end e-commerce with fulfilment along with Priest services.</string>
+    <string name="aboutUs1">Across the world, we have people of different faiths and religions living in harmony. There are many different cultures with individuals, families and groups following their beliefs, practices and rituals. Countries like India have a wide range of traditions with several festivals and functions. Ceremonies have evolved over the years and are deep rooted in people’s hearts and minds. They occur throughout the year and are followed and celebrated by people of all age groups. Adhering to their traditional rituals and rites without compromises in their observance and meaning is very important to many individuals, families and communities. </string>
+    <string name="aboutUs3">GoRituals enables people with their present day busy schedules to perform these ceremonies in a proper as well as practical way. It ensures the correctness of the ceremony as per traditions and that the meaning is well understood by all concerned with the ritual. It gives one a true sense of satisfaction and happiness in performing these rituals. Hence their families and communities attain a sense of fulfillment in participating in the rituals. Its scope and potential extends to all human beings across the globe, with the primary objective of allowing for a more wholistic way of living life. </string>
+    <string name="gocom">Provides the customer the items required to conduct festivals, events, ceremonies, pujas and Homas. It includes an online marketplace with products, services, payment gateways, logistics and support. </string>
+    <string name="gogroup">Bonds the family and groups of people by enabling them to share their experiences and participate in events.</string>
+    <string name="gotrove">Serves as a one-stop knowledge bank that provides the required information on the rituals, the meaning and significance of the ceremonies, pujas, homas and other rituals. It has blogs, sites, books, publications and other reference materials.</string>
+    <string name="gopriest1">Provides Priest services in conjunction with the 3 pillars described above.</string>
+    <string name="gopriest2">The portal applications, mobile e-commerce and knowledge apps in GoRituals are connected seamlessly with the real world fulfilment through delivery of products and services and empower people to schedule and participate in these activities directly as well as remotely. The commercial essential products and services parts are also managed in a transparent, cost effective and efficient manner giving peace of mind to all stake holders and participants.</string>
+
+    <string name="order1">Orders will be shipped within 5-15 business days after order is placed</string>
+    <string name="order2">Applicable shipping will be charged based on the product, wherever required</string>
+    <string name="order3">One coupon code is valid only on one product per user</string>
+    <string name="order4">GoRituals management reserves the right to change or cancel the terms at its discretion</string>
+    <string name="order5">Any fraudulent activities, including creating duplicate accounts, aliasing, placing multiple false orders or violating the terms and conditions will lead to order cancellation.</string>
+
+    <string name="delivery1">The delivery timeframe mentioned on the portal in the product details is the estimated one. Actual delivery time depends upon availability of the product at our store, address where the order needs to be delivered, any courier related issues and other circumstances that might adversely affect delivery.</string>
+    <string name="delivery2">You can rest assured that you are protected as a customer at GoRituals. You always have the choice to cancel your order due to shipment delay by contacting GoRituals through the support and reach us functionality in the portal.</string>
+
+    <string name="contact1">Email: reachus@hiyan.com</string>
+    <string name="contact2">Phone: +91-80-69999433</string>
+    <string name="fest1">People in all parts of India dress colorfully and indulge in fun filled activities such as singing, playing games, dancing, and attending parties.Night clubs, movie theatres,resorts,restaurants.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

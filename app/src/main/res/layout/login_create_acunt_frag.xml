@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".User_sign_up">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="25dp"
+                android:textColor="@color/red_app"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signupbg1"
+    android:id="@+id/signup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up with Rewardx"
+        android:textColor="@color/red_app"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView" />
+
+    <RelativeLayout
+        android:id="@+id/signup_form"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/boder1"
+            android:hint="Enter your Email id "/>
+
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/signup_pswrd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/btn_back"
+            android:hint="Enter Password "/>
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/signup_cnfrm_pswrd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/btn_back"
+            android:hint="Confirm Password "/>
+
+
+        <RadioGroup
+
+            android:layout_marginTop="120dp"
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true">
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_below="@+id/signup_form"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:background="@color/red_app"
+        android:text="Create Account"
+        android:textColor="#FFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+</RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>

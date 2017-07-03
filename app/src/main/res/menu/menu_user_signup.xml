@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.support.android.designlibdemo.product_list">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+
+
+
+    <item
+        android:id="@+id/nav_home1"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/nav_messages1"
+        android:title="Signup" />
+    <item
+        android:id="@+id/nav_friends1"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nav_discussion1"
+        android:title="ContactUs" />
+
+</menu>

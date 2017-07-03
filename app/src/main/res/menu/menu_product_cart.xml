@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.support.android.designlibdemo.Product_details">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/navigate1"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/locc"/>
+
+    <item android:id="@+id/navigate2"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/noti"/>
+
+    <item android:id="@+id/navigate"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/nav_icon_scan"/>
+
+    <item
+        android:id="@+id/nav_faq"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_signup"
+        android:title="Signup" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="ContactUs" />
+
+
+
+</menu>

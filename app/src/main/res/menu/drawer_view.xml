@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Desktops"
+            android:title="offers" />
+        <item
+            android:id="@+id/nav_Laptops_and_Notebooks"
+            android:title="Check-in" />
+        <item
+            android:id="@+id/nav_Components"
+            android:title="Rewards" />
+        <item
+            android:id="@+id/nav_Tablets"
+            android:title="Whishlist" />
+
+        <item
+            android:id="@+id/nav_Software"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_Phones_and_PADs"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_Cameras"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/nav_MP3_Players"
+            android:title="Settings" />
+    </group>
+
+<item android:title="">
+<menu>
+
+    <item
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>
+
+</item>
+
+</menu>

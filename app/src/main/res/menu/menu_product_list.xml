@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.support.android.designlibdemo.product_list">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/cart"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/locc"/>
+    <item android:id="@+id/cart2"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/noti"/>
+
+    <item android:id="@+id/cart1"
+        android:title="next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/nav_icon_scan"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="search here" />
+
+
+
+    <item
+        android:id="@+id/nav_home1"
+        android:title="FAQ" />
+
+    <item
+        android:id="@+id/nav_shortlist"
+        android:title="ShortList" />
+    <item
+        android:id="@+id/nav_signup"
+        android:title="Signup" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="ContactUs" />
+
+</menu>
