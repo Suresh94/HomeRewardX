@@ -14,7 +14,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 /**
- * Created by Pradeep on 22-01-2017.
+ *
  */
 
 public class Login extends AppCompatActivity {

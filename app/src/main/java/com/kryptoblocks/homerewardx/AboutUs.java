@@ -12,7 +12,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
- * Created by usha on 18/1/16.
+ *
  */
 public class AboutUs extends AppCompatActivity {
 

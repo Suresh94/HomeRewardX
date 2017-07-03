@@ -36,7 +36,7 @@
                 android:layout_width="151dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/cardArticleImage"
-                android:src="@drawable/img6"
+                android:src="@drawable/holy"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"/>
 
@@ -50,7 +50,7 @@
                     android:layout_height="30dp"
                     android:paddingLeft="10dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="CardView"
+                    android:text="Get 40 Points"
                     android:id="@+id/cardArticleTitle"
                     android:textSize="13sp"
                     android:textColor="#000"
@@ -83,7 +83,7 @@
                         android:id="@+id/cart_add_button"
                         android:layout_width="40dp"
                         android:layout_height="22dp"
-                        android:text="+ Add"
+                        android:text="+ ADD"
                         android:textSize="10sp"
                         android:background="@drawable/button_press"
                         android:layout_marginLeft="50dp" />

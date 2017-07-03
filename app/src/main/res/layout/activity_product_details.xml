@@ -83,7 +83,7 @@
                         android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Coffee Mugs"
+                        android:text="Coffee Mugs with 50 Reward points"
                         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                     <TextView
